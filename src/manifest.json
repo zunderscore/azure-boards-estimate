@@ -1,13 +1,13 @@
 {
     "manifestVersion": 1,
     "version": "0.0.7",
-    "name": "Estimate 2 Preview",
+    "name": "Estimate",
     "scopes": [
         "vso.work",
         "vso.work_write"
     ],
     "description": "",
-    "publisher": "cschleiden",
+    "publisher": "zunderscore",
     "id": "estimate",
     "icons": {
         "default": "marketplace/logo.png"
@@ -30,7 +30,7 @@
     },
     "links": {
         "support": {
-            "uri": "mailto:christopher.schleiden@microsoft.com"
+            "uri": "mailto:zwilliamson+vsmarketplace@outlook.com"
         }
     },
     "branding": {

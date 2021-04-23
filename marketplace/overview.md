@@ -1,18 +1,18 @@
 # Estimate 2 
 
-Please file issues for any bugs/feedback here: https://github.com/cschleiden/azure-boards-estimate/
-
-------
-
-## Important information for users of version 1 (8/23/2019):
-
-Version 1 of the extension will be turned off in a few days. Please talk to your admin to upgrade to Version 2 otherwise you won't be able to connect to sesions.
+Please file issues for any bugs/feedback here: https://github.com/zunderscore/azure-boards-estimate/
 
 ------
 
 Play Planning Poker in Azure DevOps. Select work from an iteration, query, or your backlog, estimate the effort of those items with your team, and immediately update the work items.
 
 ## Updates
+
+**4/23/2021** - 2.3.1
+- Minor fix with averages
+- 
+**4/22/2021** - 2.3.0
+- First zunderscore release
 
 **8/28/2019** - 2.2.0
 - Allow restricting selecting work items/commiting values to the creator of the session [#43](https://github.com/cschleiden/azure-boards-estimate/issues/43)
@@ -81,6 +81,3 @@ After you are done, you can end the session.
 
 There are two ways to join an existing session, use a direct link, or pick an existing session from the *Estimate* hub
 ![Existing Sessions](marketplace/images/join-existing.png)
-
-
-> Microsoft DevLabs is an outlet for experiments from Microsoft, experiments that represent some of the latest ideas around developer tools. Solutions in this category are designed for broad usage, and you are encouraged to use and provide feedback on them; however, these extensions are not supported nor are any commitments made as to their longevity.

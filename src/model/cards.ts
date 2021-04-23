@@ -69,7 +69,7 @@ export const defaultCardSets: ICardSet[] = [
                 value: null
             },
             {
-                identifier: "☕",
+                identifier: "🌭",
                 value: null
             }
         ]
@@ -155,7 +155,7 @@ export const defaultCardSets: ICardSet[] = [
                 value: null
             },
             {
-                identifier: "☕",
+                identifier: "🌭",
                 value: null
             }
         ]

@@ -24,10 +24,10 @@ steps:
 
     - script: npm run package-release
 
-    - task: ms-devlabs.vsts-developer-tools-build-tasks.publish-extension-build-task.PublishExtension@1
+    - task: zunderscore.vsts-developer-tools-build-tasks.publish-extension-build-task.PublishExtension@1
       displayName: "Publish Extension"
       inputs:
-          connectedServiceName: Marketplace ms-devlabs
+          connectedServiceName: Marketplace zunderscore
           fileType: vsix
-          vsixFile: "ms-devlabs.estimate-*.vsix"
+          vsixFile: "zunderscore.estimate-*.vsix"
           updateTasksVersion: false

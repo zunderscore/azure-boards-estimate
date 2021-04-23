@@ -16,7 +16,8 @@
     "lib": [
       "esnext",
       "dom"
-    ]
+    ],
+    "noFallthroughCasesInSwitch": true
   },
   "include": [
     "src"

@@ -8,9 +8,12 @@ Play Planning Poker in Azure DevOps. Select work from an iteration, query, or yo
 
 ## Updates
 
+**4/29/2021** - 2.3.2
+- Added The Kevin (Default including 4)
+
 **4/23/2021** - 2.3.1
 - Minor fix with averages
-- 
+
 **4/22/2021** - 2.3.0
 - First zunderscore release
 

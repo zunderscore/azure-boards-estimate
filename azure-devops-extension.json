@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "estimate",
-    "version": "2.3.1",
+    "version": "2.3.2",
     "name": "Estimate",
     "description": "Planning Poker in Azure Boards.",
     "publisher": "zunderscore",

@@ -8,6 +8,9 @@ Play Planning Poker in Azure DevOps. Select work from an iteration, query, or yo
 
 ## Updates
 
+**4/29/2021** - 2.3.3
+- Fix CORS issue
+
 **4/29/2021** - 2.3.2
 - Added The Kevin (Default including 4)
 

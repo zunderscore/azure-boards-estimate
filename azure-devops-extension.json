@@ -1,19 +1,28 @@
 {
     "manifestVersion": 1,
     "id": "estimate",
-    "version": "2.3.2",
+    "version": "2.3.3",
     "name": "Estimate",
     "description": "Planning Poker in Azure Boards.",
     "publisher": "zunderscore",
-    "scopes": ["vso.project", "vso.work", "vso.work_write"],
+    "scopes": [
+        "vso.project",
+        "vso.work",
+        "vso.work_write"
+    ],
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
-    "demands": ["api-version/5.1"],
+    "demands": [
+        "api-version/5.1"
+    ],
     "galleryFlags": [],
-    "tags": ["Planning Poker", "Estimate"],
+    "tags": [
+        "Planning Poker",
+        "Estimate"
+    ],
     "icons": {
         "default": "marketplace/icon-light.png",
         "branding": "marketplace/icon-light.png"
@@ -39,7 +48,9 @@
         "color": "rgb(220, 235, 252)",
         "theme": "light"
     },
-    "categories": ["Azure Boards"],
+    "categories": [
+        "Azure Boards"
+    ],
     "files": [
         {
             "path": "marketplace",
@@ -54,7 +65,9 @@
         {
             "id": "estimate-hub",
             "type": "ms.vss-web.hub",
-            "targets": ["ms.vss-work-web.work-hub-group"],
+            "targets": [
+                "ms.vss-work-web.work-hub-group"
+            ],
             "properties": {
                 "name": "Estimate",
                 "order": 100,

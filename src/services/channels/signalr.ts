@@ -64,9 +64,10 @@ export class SignalRChannel implements IChannel {
 
         this.connection = new signalR.HubConnectionBuilder()
             .withUrl(
-                `${baseUrl}/estimate?sessionId=${this.sessionId}&tfId=${
-                    identity.id
-                }`
+                `${baseUrl}/estimate?sessionId=${this.sessionId}&tfId=${identity.id
+                }`, {
+                withCredentials: false
+            }
             )
             .configureLogging(signalR.LogLevel.Information)
             .build();
